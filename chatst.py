@@ -26,7 +26,7 @@ if user_input:
     response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=st.session_state.messages,
-        temperature=0
+        temperature=0.9
     )
 
     reply = response.choices[0].message.content
