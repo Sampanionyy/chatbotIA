@@ -1,0 +1,64 @@
+2026-04-20 14:05:23,784 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:05:23,840 | INFO | user=user_6638 | model=llama-3.1-8b-instant | T=0.3 | time=0.59s | tokens=117
+2026-04-20 14:10:20,664 | INFO | user=user_7013 | reset
+2026-04-20 14:10:21,967 | INFO | user=user_7013 | reset
+2026-04-20 14:18:54,071 | INFO | user=user_7523 | reset
+2026-04-20 14:18:55,893 | INFO | user=user_7523 | reset
+2026-04-20 14:19:12,693 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:19:12,784 | INFO | user=user_7523 | model=llama-3.1-8b-instant | T=0.7 | time=0.61s | tokens=127
+2026-04-20 14:22:53,313 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:22:53,319 | INFO | user=user_7765 | model=llama-3.1-8b-instant | T=0.7 | time=0.24s | tokens=147
+2026-04-20 14:25:26,248 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:25:26,255 | INFO | user=user_7913 | model=llama-3.1-8b-instant | T=0.7 | time=0.18s | tokens=127
+2026-04-20 14:26:18,791 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:26:18,796 | INFO | user=user_7974 | model=llama-3.1-8b-instant | T=0.7 | time=0.25s | tokens=140
+2026-04-20 14:27:28,687 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 14:27:28,692 | ERROR | user=user_7974 | error: Erreur API (401) : Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-xxxxx***********xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-04-20 14:28:03,519 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-20 14:28:03,522 | ERROR | user=user_8074 | error: Erreur API (400) : Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-04-20 14:28:33,300 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:28:33,307 | INFO | user=user_8074 | model=llama-3.3-70b-versatile | T=0.7 | time=1.59s | tokens=246
+2026-04-20 14:31:25,485 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:31:25,493 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.26s | tokens=127
+2026-04-20 14:31:28,813 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:31:28,824 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.33s | tokens=183
+2026-04-20 14:31:36,596 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:31:36,608 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.42s | tokens=264
+2026-04-20 14:31:45,505 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:31:45,514 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.32s | tokens=378
+2026-04-20 14:31:57,587 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:31:57,592 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.35s | tokens=511
+2026-04-20 14:32:14,585 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:32:14,591 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.41s | tokens=687
+2026-04-20 14:32:30,007 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:32:30,012 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.35s | tokens=850
+2026-04-20 14:32:42,349 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:32:42,356 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.28s | tokens=923
+2026-04-20 14:33:02,306 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:02,314 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.38s | tokens=1043
+2026-04-20 14:33:08,552 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:08,561 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.28s | tokens=1088
+2026-04-20 14:33:11,506 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:11,512 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.27s | tokens=1165
+2026-04-20 14:33:15,002 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:15,008 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.40s | tokens=1238
+2026-04-20 14:33:18,586 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:18,590 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.34s | tokens=1255
+2026-04-20 14:33:23,309 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:23,316 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.21s | tokens=1272
+2026-04-20 14:33:28,146 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:28,152 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=0.25s | tokens=1290
+2026-04-20 14:33:29,968 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-20 14:33:29,969 | INFO | Retrying request to /chat/completions in 10.000000 seconds
+2026-04-20 14:33:32,732 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-20 14:33:32,734 | INFO | Retrying request to /chat/completions in 7.000000 seconds
+2026-04-20 14:33:34,825 | WARNING | user=user_8122 | rate limit atteint
+2026-04-20 14:33:40,044 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-20 14:33:40,046 | INFO | Retrying request to /chat/completions in 14.000000 seconds
+2026-04-20 14:33:40,060 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:44,862 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-20 14:33:44,862 | INFO | Retrying request to /chat/completions in 8.000000 seconds
+2026-04-20 14:33:53,106 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-20 14:33:53,113 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=8.33s | tokens=1321
+2026-04-20 14:33:54,138 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-20 14:33:58,623 | WARNING | user=user_8122 | rate limit atteint
