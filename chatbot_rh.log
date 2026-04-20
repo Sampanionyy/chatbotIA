@@ -62,3 +62,4 @@
 2026-04-20 14:33:53,113 | INFO | user=user_8122 | model=llama-3.1-8b-instant | T=0.7 | time=8.33s | tokens=1321
 2026-04-20 14:33:54,138 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2026-04-20 14:33:58,623 | WARNING | user=user_8122 | rate limit atteint
+2026-04-20 14:36:32,194 | INFO | user=user_8122 | reset
